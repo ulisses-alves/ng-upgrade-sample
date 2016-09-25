@@ -1,5 +1,8 @@
 {
   "name": "ng-upgrade-sample",
   "dependencies": {},
-  "globalDependencies": {}
+  "globalDependencies": {
+    "angular": "registry:dt/angular#1.5.0+20160922195358",
+    "jquery": "registry:dt/jquery#1.10.0+20160908203239"
+  }
 }
