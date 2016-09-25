@@ -1,3 +1,7 @@
-document.addEventListener('DOMContentLoaded', function () {
-  angular.bootstrap(document, ['app'])
-})
+!function () {
+  function bootstrap() {
+    angular.bootstrap(document, ['app'], {strictDi: true})
+  }
+
+  document.addEventListener('DOMContentLoaded', bootstrap)
+}()

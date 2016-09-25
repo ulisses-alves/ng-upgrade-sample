@@ -3,4 +3,4 @@ let gulp = require('gulp')
 
 requireDir('./gulp')
 
-gulp.task('default', ['build'])
+gulp.task('default', ['build', 'build-ng2'])
